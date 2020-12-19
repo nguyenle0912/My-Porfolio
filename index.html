@@ -1,0 +1,338 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Nguyen Le's Website</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+	<style>
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		/* The Modal (background) */
+		.modal {
+			display: none;
+			/* Hidden by default */
+			position: absolute;
+			/* Stay in place */
+			z-index: 1;
+			/* Sit on top */
+			padding-top: 500px;
+			/* Location of the box */
+			left: 0;
+			top: 0;
+			width: 100%;
+			/* Full width */
+			height: 100%;
+			/* Full height */
+			overflow: auto;
+			/* Enable scroll if needed */
+			background-color: rgb(0, 0, 0);
+			/* Fallback color */
+			background-color: rgba(0, 0, 0, 0.4);
+			/* Black w/ opacity */
+		}
+
+		/* Modal Content */
+		.modal-content {
+			background-color: #fefefe;
+			margin: auto;
+			padding: 20px;
+			border: 1px solid #888;
+			width: 80%;
+		}
+
+		/* The Close Button */
+		.close {
+			color: #aaaaaa;
+			float: right;
+			font-size: 28px;
+			font-weight: bold;
+		}
+
+		.close:hover,
+		.close:focus {
+			color: #000;
+			text-decoration: none;
+			cursor: pointer;
+		}
+	</style>
+</head>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper" class="fade-in">
+
+		<!-- Intro -->
+		<div id="intro">
+			<h1>Nguyen Le</h1>
+			<p>An aspriring Artificial Intelligence enthusiast.</p>
+			<p>
+				Currently working on a Computer Vision project that allows computers to read electrical schematics of
+				cable panels
+				to help ease the work of Cable Wiring workers while boosting productivity.
+			</p>
+			<ul class="actions">
+				<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+			</ul>
+		</div>
+
+		<!-- Header -->
+		<header id="header">
+			<a href="index.html" class="logo">Nguyen Le</a>
+		</header>
+
+		<!-- Nav -->
+		<nav id="nav">
+			<ul class="links">
+				<li class="active"><a href="index.html">About me</a></li>
+				<li><a href="projects.html">My Projects</a></li>
+			</ul>
+			<ul class="icons">
+				<li><a href="https://www.linkedin.com/in/nguyen-le-65435a144/" class="icon brands fa-linkedin"><span
+							class="label">Linkedin</span></a></li>
+				<li><a href="https://github.com/nguyenle0912" class="icon brands fa-github"><span
+							class="label">GitHub</span></a></li>
+			</ul>
+		</nav>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Featured Post -->
+			<article class="post featured">
+				<header class="major">
+					<h2><a href="#">Who am I</a></h2>
+					<p>I am currently pursuing a double Master's at the University of Texas at Dallas specializing in
+						Data Science and Intelligent Systems. Check out my <a href="#work"> awesome projects here</a>.
+					</p>
+					<p>I am passionate about Artificial Intelligence/Machine Learning and Robotics. On my free time, I
+						work on AL/ML and database projects.
+						I love learning and honing new skills using various educational pla tforms such as LinkedIn
+						Learning.</p>
+					<p>I was a Sofwtware Engineering Intern for CommScope in which I worked with Smart Robotic Arms
+						during Summer 2020.
+						During this internship, I developed skills in Internet of Things, Sensor Fusion, Data
+						Mining/Cleaning, Neural Networks using STMicroElectronics SensorTile and Wireless Green
+						Beaglebone.
+					</p>
+					<p>In Spring 2020, I did research with Professor Nicholas Ruozzi, a Machine Learning
+						Researcher/Professor at UTDallas, on feature selection.
+						I learned valuable skills such as comprehending research papers and using Convex Hulls to select
+						the most important features in extremely large datasets.
+					</p>
+					<p>Early in my career, I was the Robotics Leader in the VEX and BEST competitions during 2017-2018
+						in which I designed robot mechanics using SolidWorks, robot's electrical schematics, and
+						programs.
+						During this time, I acquired leadership experience and marketing skills.</p>
+				</header>
+				<a href="#" class="image main"><img src="images/sakura.jpg" alt="" /></a>
+				<!-- <ul class="actions special">
+									<li><a href="#" class="button large">Full Story</a></li>
+								</ul> -->
+
+			</article>
+			<h2><i>My Projects</i></h2>
+			<!-- Posts -->
+			<section class="posts">
+				<!-- Project 1: Sensor Fusion -->
+				<article>
+					<header>
+						<h2><a href="project1">3D Displacement Sensor Fusion</a></h2>
+					</header>
+					<a href="#" class="image fit"><img src="images/ST.png" alt="" /></a>
+					<p>Calculate 3D Displacement using Sensor Fusion and Internet of Things for Automated Smart Robotics
+						Arms.</p>
+					<p><strong>Skills used:</strong><i> Internet of Things, Sensor Fusion, Machine Learning, Data
+							Mining/Cleaning, Linear Algebra</i></p>
+					<ul class="actions special">
+						<li><button class="myBtn">See More</button></li>
+					</ul>
+					<!-- Project 1 Modal -->
+					<div id="myModal" class="modal">
+						<!-- Modal content -->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="close">×</span>
+								<h2>3D Displacement Sensor Fusion</h2>
+							</div>
+							<div class="modal-body">
+								<p>+ Modeled 3D displacement using data from a MEMS Sensor (Accelerometer, Gyroscope,
+									Magnetometer) created by STMicroelectronics called SensorTile together with the
+									Nucleo
+									development board.
+									<br>+ Incorporated Sensor Fusion to filter out noise from sensors and clean data
+									sets.
+									<br>+ Utilized Internet of Things for sensor data communication using the BeagleBone
+									Green
+									Wireless.
+								</p>
+							</div>
+							<h3>What I achieved</h3>
+							<p><i>Left image: </i>Greatly reduce the sensors' noise as shown in the Noise Spectrum
+								graph. <br>
+								<i>Right image: </i>Improved the accuracy of 3D Displacement Calculation using only IMU
+								sensors. Minimized the error existed in the red trajectory to a more accurate
+								calculation as indicated by the black trajectory.
+							</p>
+							<a href="#" class="image main"><img src="images/SensorFusionOutcome.png" alt="" /></a>
+						</div>
+					</div>
+				</article>
+				<!-- Project 2: Mechanical Phoenix -->
+				<article>
+					<header>
+						<h2><a href="project1">Mechanical Phoenix</a></h2>
+					</header>
+					<a href="#" class="image fit"><img src="images/Phoenix1.jpg" alt="" /></a>
+					<p>3D Printed Mechnical Phoenix designed using AutoDesk Inventor.</p>
+					<p><strong>Skills used:</strong><i> Autodesk Inventor, Gear Mechanics, Physics, Creativity,
+							Mechanical Assembly</i></p>
+					<ul class="actions special">
+						<li><button class="myBtn">See More</button></li>
+					</ul>
+					<!-- Project 1 Modal -->
+					<div id="myModal" class="modal">
+						<!-- Modal content -->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="close">×</span>
+								<h2>Mechanical Phoenix</h2>
+							</div>
+							<div class="modal-body">
+								<p>+ Designed a 3D printed Mechanical Phoenix using AutoDesk Inventor.
+									<br>+ Won 1st Place at the State 3D printed Competition hosted by the Technology
+									Student Association.
+									<br>+ The phoenix is able to flap its wings and tails using knowledge of gear
+									mechanisms as shown in the video below.
+								</p>
+							</div>
+							<h2>What I achieved</h2>
+							<h3>Demo Video</h3>
+							<video width="700" height="700" controls>
+								<source src="images/MechanicalPhoenixDemo.wmv" type="video/mp4">
+								Your browser does not support the video tag.
+							</video>
+						</div>
+					</div>
+				</article>
+			</section>
+		</div>
+	</div>
+
+
+	<!-- Footer -->
+	<footer id="footer">
+		<section>
+			<form method="post" action="#">
+				<div class="fields">
+					<div class="field">
+						<label for="name">Name</label>
+						<input type="text" name="name" id="name" />
+					</div>
+					<div class="field">
+						<label for="email">Email</label>
+						<input type="text" name="email" id="email" />
+					</div>
+					<div class="field">
+						<label for="message">Message</label>
+						<textarea name="message" id="message" rows="3"></textarea>
+					</div>
+				</div>
+				<ul class="actions">
+					<li><input type="submit" value="Send Message" /></li>
+				</ul>
+			</form>
+		</section>
+		<section class="split contact">
+			<section class="alt">
+				<h3>Address</h3>
+				<p>2526 Creighton Dr. Garland, TX 75044d</p>
+			</section>
+			<section>
+				<h3>Phone</h3>
+				<p><a href="#">(469) 363-6778</a></p>
+			</section>
+			<section>
+				<h3>Email</h3>
+				<p><a href="#">phnguyen0912@gmail.com</a></p>
+			</section>
+			<section>
+				<h3>Social</h3>
+				<ul class="icons alt">
+					<li><a href="https://www.linkedin.com/in/nguyen-le-65435a144/" class="icon brands fa-linkedin"><span
+								class="label">Linkedin</span></a></li>
+					<li><a href="https://github.com/nguyenle0912" class="icon brands fa-github"><span
+								class="label">GitHub</span></a></li>
+				</ul>
+			</section>
+		</section>
+	</footer>
+
+	<!-- Copyright 
+		<div id="copyright">
+			<ul>
+				<li>&copy; Untitled</li>
+				<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+			</ul>
+		</div>-->
+
+	</div>
+
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script>
+		// Get the modal
+		var modal = document.getElementsByClassName('modal');
+
+		// Get the button that opens the modal
+		var btn = document.getElementsByClassName("myBtn");
+
+
+		// Get the <span> element that closes the modal
+		var span = document.getElementsByClassName("close");
+
+		// When the user clicks the button, open the modal 
+		btn[0].onclick = function () {
+			modal[0].style.display = "block";
+		}
+
+		btn[1].onclick = function () {
+			modal[1].style.display = "block";
+		}
+		// When the user clicks on <span> (x), close the modal
+		span[0].onclick = function () {
+			modal[0].style.display = "none";
+		}
+
+		span[1].onclick = function () {
+			modal[1].style.display = "none";
+		}
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function (event) {
+			if (event.target == modal) {
+				modal.style.display = "none";
+			}
+		}
+	</script>
+</body>
+
+</html>
